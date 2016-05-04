@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<data-sources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.oracle.com/oracleas/schema http://xmlns.oracle.com/oracleas/schema/data-sources-10_1.xsd" version="10.1" xmlns="http://xmlns.oracle.com/oracleas/schema">
+    <connection-pool name="jdev-connection-pool-botap">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" user="xxdqa" password="->DataBase_User_ZAtP-TUHExuKkZJikHkZU_4q52xZiJt1" url="jdbc:oracle:thin:@10.10.1.2:1521:botap"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-botap" jndi-name="jdbc/botapDS" connection-pool-name="jdev-connection-pool-botap"/>
+    <native-data-source name="jdev-connection-native-botap" jndi-name="jdbc/botapCoreDS" url="jdbc:oracle:thin:@10.10.1.2:1521:botap" user="xxdqa" password="->DataBase_User_spvuMYuDCBc0Gqv6nR0PixDj5LdqS2xA" data-source-class="oracle.jdbc.pool.OracleDataSource"/>
+    <connection-pool name="jdev-connection-pool-VTFS">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" user="vtfsadmin" password="->DataBase_User_eJ8vqtetuwJm8EBbPiTJBHwNy53jcqzgWvp9YvK0OgM=" url="jdbc:oracle:thin:@192.168.1.15:1521:prod"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-VTFS" jndi-name="jdbc/VTFSDS" connection-pool-name="jdev-connection-pool-VTFS"/>
+    <native-data-source name="jdev-connection-native-VTFS" jndi-name="jdbc/VTFSCoreDS" url="jdbc:oracle:thin:@192.168.1.15:1521:prod" user="vtfsadmin" password="->DataBase_User_OQDZHyh_OQdrAcSnNAT3RXfQQy047m7rywIjVMWU1y4=" data-source-class="oracle.jdbc.pool.OracleDataSource"/>
+    <connection-pool name="jdev-connection-pool-BI">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" user="xxdqa" password="->DataBase_User_eDJH7fNomXtBjeMc2yQehrs7bpmChWfy" url="jdbc:oracle:thin:@//localhost:1521/BI"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-BI" jndi-name="jdbc/BIDS" connection-pool-name="jdev-connection-pool-BI"/>
+    <native-data-source name="jdev-connection-native-BI" jndi-name="jdbc/BICoreDS" url="jdbc:oracle:thin:@//localhost:1521/BI" user="xxdqa" password="->DataBase_User_bSkD7Fc644N5VCohRfn0gpSL5j7FxokY" data-source-class="oracle.jdbc.pool.OracleDataSource"/>
+    <connection-pool name="jdev-connection-pool-SOE">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" user="soe" password="->DataBase_User_0wqnOh1qEmleBiXNAzgk_zOCZfWLKNL6" url="jdbc:oracle:thin:@localhost:1521:ORCL"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-SOE" jndi-name="jdbc/SOEDS" connection-pool-name="jdev-connection-pool-SOE"/>
+    <native-data-source name="jdev-connection-native-SOE" jndi-name="jdbc/SOECoreDS" url="jdbc:oracle:thin:@localhost:1521:ORCL" user="soe" password="->DataBase_User_Gt2wW9eDh9VVQdVZVgHVCmWj0_kXWKy5" data-source-class="oracle.jdbc.pool.OracleDataSource"/>
+    <connection-pool name="jdev-connection-pool-Sais">
+        <connection-factory factory-class="oracle.jdbc.pool.OracleDataSource" user="vtfsadmin" password="->DataBase_User_t7LPcz7KbMiB6t26mdfXy1UBSKNgNrIoFO6ez-MLDbQ=" url="jdbc:oracle:thin:@//vtfs-01.sais.local:1521/PROD"/>
+    </connection-pool>
+    <managed-data-source name="jdev-connection-managed-Sais" jndi-name="jdbc/SaisDS" connection-pool-name="jdev-connection-pool-Sais"/>
+    <native-data-source name="jdev-connection-native-Sais" jndi-name="jdbc/SaisCoreDS" url="jdbc:oracle:thin:@//vtfs-01.sais.local:1521/PROD" user="vtfsadmin" password="->DataBase_User_uyPTOYnTK7uOUbLP-0jFxWpN_DxR4iLgw1aCzrn2Dcw=" data-source-class="oracle.jdbc.pool.OracleDataSource"/>
+</data-sources>
