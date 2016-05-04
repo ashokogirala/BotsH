@@ -1,0 +1,281 @@
+
+
+.dataTable {
+     background-color: white;
+    font-family: arial, helvetica, sans-serif;
+     border: 1px solid #0e6c92;
+     font-size :     11px;
+    /* margin:     5px;*/
+     width:100%;
+}
+
+.dataTable th {
+     border-right: 1px solid #39a1cb;
+  /*   padding-left: 2px;*/
+     padding-right:0px;
+     font-family: arial, helvetica, sans-serif;
+     font-weight: bold;
+     font-size:11px;
+     color: #ffffff;
+     background-color: #2187b1;
+     margin-right: 10px;
+     white-space: nowrap;
+     text-align:left;
+}
+
+.dataTable  td {
+     font-family: arial, helvetica, sans-serif;
+     font-size:11px;
+      font-weight: normal;
+      color:#023347;
+    /* padding-left: 2px;*/
+      border-right: 1px solid #9ed0e2;
+}
+
+.dataTable tr.total td {
+     white-space: nowrap;
+     vertical-align: top;
+     font-weight: bold;
+     border-top: 1px solid black;
+     padding-bottom: 10px;
+}
+
+.dataTable tr.total td.customer {
+     visibility: hidden;
+}
+
+.dataTable td.hidden {
+     display: none;
+}
+
+.dataTable th.hidden {
+     display: none;
+}
+
+.dataTable th.r {
+     text-align: right;
+    /* padding-right: 10px;*/
+}
+
+.dataTable th.c {
+     text-align: left;
+}
+
+.dataTable td.r {
+     text-align: right;
+   /*  padding-right: 10px;*/
+}
+
+.dataTable td.c {
+     text-align: center;
+}
+
+.dataTable  tr.odd {
+     background-color: #e5f8fe;
+}
+
+.dataTable tr.even {
+     background-color:#b2e0ef;
+     /*rgb(209,225,242);*/
+}
+
+.dataTable th a   ,.dataTable th a:visited {
+     text-align: left;
+     color: white;
+     font-family: arial, helvetica, sans-serif;
+     font-weight: bold;
+     font-size:11px;
+}
+
+.dataTable th a:hover {
+     color: #ffcc00;
+     background-color: transparent;
+     font-family: arial, helvetica, sans-serif;
+     font-weight: bold;
+     font-size:11px;
+     
+}
+
+.dataTable .order1 {
+     background-position: right;
+     background-image: url(../images/arrow_up.gif);
+     background-repeat: no-repeat;
+}
+
+.dataTable .order2 {
+     background-position: right;
+     background-image: url(../images/arrow_down.gif);
+     background-repeat: no-repeat;
+}
+
+.pagelinks {
+  background-position: right;
+     color: #999999;
+     margin: 100px;
+}
+
+.pagelinks img {
+     vertical-align: middle;
+}
+
+span.export {
+     padding: 0 4px 1px 20px;
+     font-size: x-small;
+     text-align: center;
+}
+
+span.excel {
+     background-image: url(../images/excel_icon.jpg);
+     background-repeat: no-repeat;
+     width: 56px;
+}
+
+span.csv {
+     background-image: url(../images/ico_file_csv.png);
+     background-repeat: no-repeat;
+     width: 16px;
+}
+
+span.xml {
+     background-image: url(../images/ico_file_xml.png);
+     background-repeat: no-repeat;
+     width: 16px;
+}
+
+span.pdf {
+     background-image: url(../images/pdf_icon.jpg);
+     background-repeat: no-repeat;
+     width: 56px;
+}
+
+span.rtf {
+     background-image: url(../images/ico_file_rtf.png);
+     background-repeat: no-repeat;
+     width: 16px;
+}
+
+.dataTable tr.rowMouseOver {
+     background-image: url(../images/selected.gif);
+     background-repeat: repeat-x;
+     background-color: #ffff99;
+}
+
+html,body {
+     width: 100%;
+     height: 100%;
+     margin: 0px;
+     font-family: arial, helvetica, sans-serif;
+     font-size: 11px;
+}
+
+.pageHeader {
+     height: 60px;
+     background-image: url(../images/header.gif);
+     background-repeat: repeat-x;
+}
+
+.pageHeaderText {
+     font-size: 30px;
+     margin-left: 5px;
+     color: whitesmoke;
+     font-family: "century gothic", verdana, arial, helvetica, sans-serif;
+     font-weight: bold;
+     text-align: left;
+     display:inline;
+     white-space: nowrap;
+}
+
+.leftMenu {
+     white-space: nowrap;
+     height: 100%;
+     background-color: #d6cfe6;
+     font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.content {
+     width: 100%;
+   /*  padding: 10px;*/
+}
+
+.rightColumn {
+     width: 3px;
+}
+
+.customer {
+     width: 20%;
+     text-align: left;
+}
+
+.orderNumber {
+     width: 10%;
+     text-align: left;
+}
+
+.orderDate {
+     text-align: center;
+     width: 10%;
+}
+
+.productName {
+     width: 25%;
+}
+
+.quantity {
+     text-align: center;
+     width: 10%;
+}
+
+.lineItemTotal {
+     text-align: right;
+     width: 15%;
+     padding-right:10px;
+}
+
+.logo {
+     border-top: 1px solid #000066;
+     border-left: 1px solid #000066;
+     border-bottom: 1px solid #000066;
+     display:inline;
+     text-align: right;
+}
+
+.code {
+     font-family: verdana, arial, helvetica, "courier new", monospace;
+     font-size: 11px;
+}
+
+.borderedInline {
+     display: inline;
+     border: 1px solid black;
+}
+
+a:link {
+     color: #023347;
+    font-family: arial, helvetica, sans-serif;
+     font-size:11px;
+      font-weight: normal;
+     /*text-decoration: underline;*/
+     background-color: transparent;
+}
+
+a:visited {
+     color: #023347;
+     font-family: arial, helvetica, sans-serif;
+     font-size:11px;
+      font-weight: normal;
+     text-decoration: none;
+     /*text-decoration: underline;*/
+     background-color: transparent;
+}
+
+a:hover {
+     color: #d68000;
+     font-family: arial, helvetica, sans-serif;
+     font-size:11px;
+      font-weight: normal;
+     background-color: transparent;
+}
+
+img {
+     border: 0px;
+}
