@@ -1,0 +1,153 @@
+h1 
+{
+	margin-bottom: 15px;
+	
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: normal;
+	
+	color: #509bba;
+}
+
+dl.accordion
+{
+	width: 225px;
+	
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+}
+
+dl.accordion dt
+{
+	position: relative;
+	height: 20px;
+	padding: 5px 0 2px 25px;
+	font-family:tahoma;
+	font-size:11px;
+	font-weight: normal;
+	color: #000000;
+	background: #ffffff url(../images/icon_accordion_closed.png);
+        background-repeat: no-repeat;
+	cursor: pointer;
+	border-top: 1px solid #ffffff;
+}
+
+dl.accordion1 dt
+{
+	position: relative;
+	height:auto;
+	padding: 5px 0 2px 25px;
+	font-family:tahoma;
+	font-size:11px;
+	font-weight: normal;
+	color: #000000;
+	background: #ffffff ;
+	cursor: pointer;
+	border-top: 1px solid #ffffff;
+}
+dl.accordion2 dt
+{
+	position: relative;
+	height:auto;
+	padding: 5px 0 2px 25px;
+	font-family:tahoma;
+	font-size:11px;
+	font-weight: normal;
+	color: #000000;
+	background: #ffffff ;
+	cursor: pointer;
+	border-top: 1px solid #ffffff;
+}
+
+* html dl.accordion dt
+{
+	cursor:hand;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(fix=url(../images/icon_accordion_closed.png), sizingMethod='crop');
+	background-image: none;
+}
+
+dl.accordion dt.open
+{
+	background-image: url('../images/icon_accordion_open.png');
+}
+
+* html dl.accordion dt.open
+{
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=url'../images/icon_accordion_open.png'), sizingMethod='crop');
+	background-image: none;
+}
+
+dl.accordion dd
+{
+	position: relative;
+	overflow: hidden;
+	background: #ffffff;
+}
+
+/* @group Inhalt */
+
+dl.accordion dd.sub_accordion
+{
+	
+}
+
+dl.accordion dd.accordion_content
+{
+	padding: 0 10px 0 25px;
+}
+
+dl.accordion dd.accordion_content p
+{
+	padding: 5px 0 7px 0;
+}
+
+dl.accordion dd dl dt
+{
+	padding-left: 35px;
+	background-color: #ffffff;
+	background-position: 10px 0;
+}
+
+dl.accordion dd dl dd.accordion_content
+{
+	padding-left: 45px;
+}
+
+dl.accordion dd dl dd dl dt
+{
+	padding-left: 40px;
+	background-color: #ffffff;
+	background-position: 0 0;
+}
+
+dl.accordion dd dl dd dl dd.accordion_content
+{
+	padding-left: 65px;
+}
+
+
+dl.accordion dd dl dd dl dd dl dt
+{
+	padding-left: 85px;
+	background-color: #ffffff;
+	background-position:60px 0;
+}
+
+dl.accordion dd dl dd dl dd dl dd.accordion_content
+{
+	padding-left: 85px;
+}
+
+.menulink:link, .menulink:visited {
+	font-family:Tahoma, "Trebuchet MS";
+	font-size:11px;
+	color:#000000;
+	text-decoration:none;
+}
+.menulink:hover{
+	font-family:Tahoma, "Trebuchet MS";
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
